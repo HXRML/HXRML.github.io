@@ -1,0 +1,14 @@
+# Uncomment and run this code to get started!
+print(3 * True)
+print(3 * False)
+print(type(3 * True))
+print(-3.1 * True)
+print(-3.1 * False)
+print("abc" * True)
+print("abc" * False)
+print(type("abc" * False))
+print(len("abc" * False))
+#跟真假相乘都不会改变与其相乘的数据类型，整型还是整型，字符串还是字符串
+#与真相乘，其值不变，
+#与假相乘，数据类型不变，正负也不变，但整型和浮点型都是各自类型对应的0,0.0，-0.0
+#而字符串则直接为空，长度为零
