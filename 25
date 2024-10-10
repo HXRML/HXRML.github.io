@@ -1,0 +1,4 @@
+def cost_of_project(engraving, solid_gold):
+    len_unit = len(engraving)
+    cost = (len_unit * 10 + 100) * solid_gold + (len_unit * 7 + 50) * (not solid_gold)
+    return cost
